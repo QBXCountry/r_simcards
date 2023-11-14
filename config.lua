@@ -17,8 +17,8 @@ Config.menuAlign = 'bottom-right'
 ]]
 
 Config.Database = {
-    playerTable = 'users',
-    identifierColumn = 'identifier',
+    playerTable = 'players',
+    identifierColumn = 'citizenid',
     phoneNumberColumn = 'phone_number'
 }
 
