@@ -1,4 +1,4 @@
-TriggerEvent('ox_inventory:setPlayerInventory', function(currentDrops, inventory)
+AddEventHandler('ox_inventory:setPlayerInventory', function(currentDrops, inventory)
 	exports.ox_inventory:displayMetadata({
 		number = "Number",
 		ssn = "SSN"
