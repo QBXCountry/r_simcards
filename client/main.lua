@@ -6,7 +6,8 @@ AddEventHandler('ox_inventory:updateInventory', function(changes)
 	})
 	local phoneNumber = exports.npwd:getPhoneNumber() 
 	foundSim = false 
-	for _, item in pairs(inventory) do
+	--for _, item in pairs(inventory) do
+	for _, item in pairs(changes) do
 		if item.name == 'sim_card' then 
 			if item.metadata.number == phoneNumber then 
 				foundSim = true 
